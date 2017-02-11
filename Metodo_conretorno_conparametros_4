@@ -1,0 +1,12 @@
+public class Metodo_conretorno_conparametros_4 {
+public static void main(String [] args){
+	double promediofinal;
+	promediofinal = calcula_promedio(10, 9, 10, 9.5, 8.6, 7);
+System.out.println("El promedio final es: "+promediofinal);
+}
+	public static double calcula_promedio(double cal1, double cal2, double cal3, double cal4, double cal5, double cal6){
+		double sumapromedio = cal1+cal2+cal3+cal4+cal5+cal6;
+		double promedio = sumapromedio / 6;
+		return promedio;
+	}
+}
