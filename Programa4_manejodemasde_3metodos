@@ -1,0 +1,38 @@
+public class programa4_manejodemasde_3metodos {
+public static void main(String [] args){
+dividir();
+multiplicar();
+sumar();
+restar();
+}
+	public static void dividir(){
+	int num1 = 40;
+	int num2 = 5;
+	int division;
+	division = num1/num2;
+	System.out.println("El resultado de la división es: "+division);
+}
+	public static void multiplicar(){
+	int num1 = 5;
+	int num2 = 8;
+	int multiplicacion;
+	multiplicacion = num1*num2;
+	System.out.println("El resultado de la división es: "+multiplicacion);
+}
+	public static void sumar(){
+	int num1 = 3;
+	int num2 = 15;
+	int sumatoria;
+	sumatoria = num1+num2;
+	System.out.println("El resultado de la división es: "+sumatoria);
+}
+	public static void restar(){
+	int num1 = 35;
+	int num2 = 15;
+	int resta;
+	resta = num1-num2;
+	System.out.println("El resultado de la división es: "+resta);
+}
+
+
+}
