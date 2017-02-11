@@ -1,0 +1,13 @@
+
+public class Metodo_sinretorno_sinparametros {
+public static void main(String [] args){
+	multiplicar ();
+	
+}
+	public static void multiplicar (){
+	int num1 = 50;
+	int num2 = 50;
+	int multiplicacion = num1*num2;
+System.out.println("El resultado de la multiplicación es: "+multiplicacion);
+}
+}
