@@ -1,0 +1,13 @@
+public class metodo_sinretorno_sinparametros_3 {
+public static void main(String [] args){
+	datos_personales();
+
+}
+public static void datos_personales(){
+	 String nombre;
+	 nombre = "Alfredo";
+	 String apellido;
+	 apellido = "Lopez Soni";
+System.out.println("Datos personales de: "+nombre+" "+apellido);
+}
+}
