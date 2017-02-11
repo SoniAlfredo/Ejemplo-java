@@ -1,0 +1,17 @@
+
+public class metodo_sinretorno_conparametros_4 {
+public static void main(String [] args){
+	par_e_impar(5,4);
+}
+	public static void par_e_impar(int valor1, int valor2){
+		if (valor1%2==0)
+System.out.println("El numero es par");
+		else
+System.out.println("El numero es impar");
+		if (valor2%2==0)
+System.out.println("El numero es par");
+		else
+System.out.println("El numero es impar");
+    	   
+}
+}
