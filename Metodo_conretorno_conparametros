@@ -1,0 +1,11 @@
+public class Metodo_conretorno_conparametros {
+public static void main(String [] args){
+	int resultado;
+	resultado = multiplicar(3,5);
+System.out.println("El resultado de la multiplicacion es: "+resultado);
+}
+public static int multiplicar(int num1, int num2){
+	int multiplicacion = num1*num2;
+	return multiplicacion;
+}
+}
