@@ -1,0 +1,17 @@
+import java.util.*;
+public class metodo_sinretorno_sinparametros_4 {
+public static void main(String [] args){
+	captura_datos();
+}
+
+	public static void captura_datos(){
+Scanner leer = new Scanner(System.in);
+	String nombre;
+	String apellidos;
+System.out.println("Captura tu nombre: ");
+	nombre = leer.nextLine();
+System.out.println("Captura tus apellidos: ");
+	apellidos = leer.nextLine();
+System.out.println("Tu nombre es: "+nombre+" y tus apellidos son: "+apellidos);
+}
+}
