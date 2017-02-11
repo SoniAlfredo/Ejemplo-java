@@ -1,0 +1,13 @@
+public class Metodo_conretorno_sinparametros_5 {
+public static void main(String [] args){
+	int resultado;
+	resultado = sumar();
+System.out.println("El resultado de la suma: "+resultado);
+}
+	public static int sumar(){
+		int num1 = 8;
+		int num2 = 8;
+		int total = num1+num2;
+		return total;
+	}
+}
