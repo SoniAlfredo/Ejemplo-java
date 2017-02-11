@@ -1,0 +1,14 @@
+
+public class Metodo_sinretorno_sinparametros_2 {
+public static void main(String [] args){
+	dividir ();
+}
+
+	public static void dividir(){
+		int num1 = 10;
+		int num2 = 2;
+		int division = num1/num2;
+System.out.println("El resultado de la división es: "+division);
+	
+}
+}
