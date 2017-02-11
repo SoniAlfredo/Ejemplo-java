@@ -1,0 +1,11 @@
+public class Metodo_conretorno_conparametros_2 {
+public static void main(String [] args){
+	int resultado;
+	resultado = dividir(30,2);
+System.out.println("El resultado de la división es: "+resultado);
+}
+	public static int dividir(int num1, int num2){
+		int division = num1/num2;
+		return division;
+	}
+}
