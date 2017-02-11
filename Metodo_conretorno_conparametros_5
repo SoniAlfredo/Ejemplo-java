@@ -1,0 +1,12 @@
+import java.util.*;
+public class Metodo_conretorno_conparametros_5 {
+public static void main(String [] args){
+	int resultado;
+	resultado = sumar(30,30);
+System.out.println("El resultado de la suma: "+resultado);
+}
+	public static int sumar(int num1, int num2){
+		int total;
+		total = num1+num2;
+		return total;
+	}
