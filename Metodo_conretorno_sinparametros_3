@@ -1,0 +1,13 @@
+public class Metodo_conretorno_sinparametros_3 {
+public static void main(String [] args){
+	String informacion;
+	informacion = datos_personales();
+System.out.println("Tu nombre es: "+informacion);
+}
+	public static String datos_personales(){
+	String datos = "Alfredo Lopez Soni";
+	String nombre;
+	nombre = datos;
+	return datos;
+	}
+}
