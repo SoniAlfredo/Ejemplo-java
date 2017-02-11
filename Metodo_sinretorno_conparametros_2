@@ -1,0 +1,10 @@
+public class metodo_sinretorno_conparametros_2 {
+public  static void main (String [] args){
+	dividir(20,5);
+}
+
+	public static void dividir(int num1, int num2){
+		int division = num1/num2;
+System.out.println("El resultado de la division es: "+division);
+}
+}
