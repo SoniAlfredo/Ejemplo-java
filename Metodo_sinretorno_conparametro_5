@@ -1,0 +1,15 @@
+public class metodo_sinretorno_conparametro_5 {
+public static void main(String [] args){
+	positivo_negativo(5,-5);
+}
+	public static void positivo_negativo(int valor1, int valor2){
+		if (valor1 > 0)
+System.out.println("El numero es positivo");
+		else
+System.out.println("El numero es negativo");
+		if (valor2 > 0)
+System.out.println("El numero es positivo");
+		else
+System.out.println("El numero es negativo");
+}
+}
