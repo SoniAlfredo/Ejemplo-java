@@ -1,0 +1,12 @@
+public class Metodo_conretorno_conparametros_3 {
+public static void main(String [] args){
+	String informacion; 
+	informacion = datos_personales("Alfredo Lopez Soni");
+System.out.println("Tus datos personales son: Nombre: "+informacion);
+	}
+	public static String datos_personales(String nombre){
+		String nombrec;
+		nombrec = nombre;
+		return nombrec;
+	}
+}
